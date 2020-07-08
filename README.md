@@ -1,2 +1,2 @@
 # Projects
-A repository containing my side projects.
+A few of my projects.
