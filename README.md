@@ -1,5 +1,5 @@
-# Projects
-A few of my projects.
+# Intermediate Level Machine Learning Projects
+A few of the projects I completed on my machine learning journey.
 
 
 # 1) Breast Cancer Classification (SVC)
