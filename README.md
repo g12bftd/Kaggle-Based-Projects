@@ -125,3 +125,11 @@ and more...
 
 Using Logistic Regression, we build a model to predict whether or not a given user has churned (i.e. no longer interested in the company product).
 
+## 6) Project - Sales Analysis
+
+Given 12 months of sales data, we use the Pandas library to answer the following questions:
+1) What was the best month of sales? How much revenue was made?
+2) What city has the highest number of sales?
+3) What is the best time of the day to advertise to customers?
+4) What products are most often sold together in pairs?
+5) Which product is sold the most?
