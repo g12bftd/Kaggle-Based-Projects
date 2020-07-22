@@ -134,3 +134,17 @@ Given 12 months of sales data, we use the Pandas library to answer the following
 3) What is the best time of the day to advertise to customers?
 4) What products are most often sold together in pairs?
 5) Which product is sold the most?
+
+## 6) Project - Sales Analysis
+
+We are working for an e-commerce company and will use past transactional data to detect potential fraud.
+
+- Our dataset is slightly unusual. 
+- We have 284807 transactions and 31 different columns
+- We have 29 unknown columns and numeric values.
+
+This is appropriate in this business environment because customers and their information should ideally remain anonymous. One column denotes how many times the customer has purchased goods on our platform.
+- One column denotes how much money the user has spent on our platform in total.
+- The response variate denotes whether the transaction is fraudulent.
+
+Using random forest and decision tree classification as well as a dense sequential neural network, we aim to predict whether any given transaction is legitimate or fraudulent.
