@@ -135,7 +135,7 @@ Given 12 months of sales data, we use the Pandas library to answer the following
 4) What products are most often sold together in pairs?
 5) Which product is sold the most?
 
-## 6) Project - Sales Analysis
+## 6) Credit Card Fraud Detection
 
 We are working for an e-commerce company and will use past transactional data to detect potential fraud.
 
