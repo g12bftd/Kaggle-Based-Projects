@@ -2,7 +2,7 @@
 A few of the projects I completed on my machine learning journey.
 
 
-# 1) Breast Cancer Classification (SVC)
+## 1) Breast Cancer Classification (SVC)
 
 Objective: Given features regarding breast tumors, we wish to classify these tumors as either benign or malignant
 
@@ -24,7 +24,7 @@ Benign https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnost
 
 Using Support Vector Classification, we build a model to predict whether a tumor is benign or malignant.
 
-# 2) Customer Subscription Behavior Analysis
+## 2) Customer Subscription Behavior Analysis
 
 We are working for a fintech company that wants to provide customers with a paid mobile app subscription that will allow them to track their finances.
 To attract customers, the company releases a free version of the app.
@@ -46,7 +46,7 @@ The date of enrolment (if any)
 
 Using Logistic Regression, we build a model to predict whether a customer has enrolled in the app's paid version.
 
-# 3) Fashion Class Classification
+## 3) Fashion Class Classification
 
 Given a series of images, we want to build a machine learning model that is able to identify the fashion content of each image. Examples of classes include shorts, bags, dresses etc.
 
@@ -80,7 +80,7 @@ Each training and test example is assigned to one of the following labels:
 
 Using a convolutional neural network, we predict which of the 10 items of fashion feature in any given image.
 
-# 4) Logistic Regression - Breast Cancer (UCI ML Repo Dataset)
+## 4) Logistic Regression - Breast Cancer (UCI ML Repo Dataset)
 
 Objective: Given features regarding breast tumors, we wish to classify these tumors as either benign or malignant
 
@@ -102,4 +102,26 @@ Benign https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnost
 
 Using Logistic Regression, we build a model to predict whether a tumor is benign or malignant.
 
+## 5) Minimizing Churn Rate
+
+Objective: to predict which users are most likely to churn, thereby allowing the company to re-engage/advertise to these users.
+We're working for a fintech company that has a subscription product that allows a user to manage their finances.
+Data:
+We will have access to users' finances and how they handle finances through the product.
+We also have demographic info acquired from sign-up process
+Caveat: financial data can be unreliable and delayed, so companies are more likely to use demographic data instead.
+Dataset - Our dataset will include fields such as:
+User ID
+Whether they churned (0 or 1) response variable
+Age
+Housing (na, R = renting, O = owner)
+Credit score
+Deposits = number of deposits
+Withdrawals = number of withdrawals
+Purchases = how many purchases outside of company partner stores
+Purchases_special = number of purchases with company partner stores
+CC_taken = number of credit cards
+and more...
+
+Using Logistic Regression, we build a model to predict whether or not a given user has churned (i.e. no longer interested in the company product).
 
