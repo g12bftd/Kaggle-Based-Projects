@@ -7,16 +7,16 @@ A few of the projects I completed on my machine learning journey.
 Objective: Given features regarding breast tumors, we wish to classify these tumors as either benign or malignant
 
 30 features are used, examples include:
-radius (mean of distances from center to points on the perimeter)
-texture (standard deviation of gray-scale values)
-perimeter
-area
-smoothness (local variation in radius lengths)
-compactness (perimeter^2 / area - 1.0)
-concavity (severity of concave portions of the contour)
-concave points (number of concave portions of the contour)
-symmetry
-fractal dimension ("coastline approximation" - 1)
+- radius (mean of distances from center to points on the perimeter)
+- texture (standard deviation of gray-scale values)
+- perimeter
+- area
+- smoothness (local variation in radius lengths)
+- compactness (perimeter^2 / area - 1.0)
+- concavity (severity of concave portions of the contour)
+- concave points (number of concave portions of the contour)
+- symmetry
+- fractal dimension ("coastline approximation" - 1)
 
 Datasets are linearly separable using all 30 input features Number of Instances: 569 Class Distribution: 212 Malignant, 357 Benign Target class:
 Malignant
@@ -31,18 +31,18 @@ To attract customers, the company releases a free version of the app.
 The task is to identify which users will most likely NOT purchase the paid version of the app, so that additional offers can be provided to them. Accuracy is key, because increased targeted advertising is costly.
 
 Our dataset features:
-User ID
-Day and time at which the user first opened the app
-Day of the week (numerical) at which the user first opened the app
-Hour of the day at which the user first opened the app
-User age
-Screen list: every screen name visited by user in the app
-Number of screens visited in the app by the user
-Whether the user played the available minigame
-Whether the user gave a "like" rating to the app
-Whether the user used the app's premium feature
-Whether the user enrolled in the paid product
-The date of enrolment (if any)
+- User ID
+- Day and time at which the user first opened the app
+- Day of the week (numerical) at which the user first opened the app
+- Hour of the day at which the user first opened the app
+- User age
+- Screen list: every screen name visited by user in the app
+- Number of screens visited in the app by the user
+- Whether the user played the available minigame
+- Whether the user gave a "like" rating to the app
+- Whether the user used the app's premium feature
+- Whether the user enrolled in the paid product
+- The date of enrolment (if any)
 
 Using Logistic Regression, we build a model to predict whether a customer has enrolled in the app's paid version.
 
@@ -85,16 +85,16 @@ Using a convolutional neural network, we predict which of the 10 items of fashio
 Objective: Given features regarding breast tumors, we wish to classify these tumors as either benign or malignant
 
 30 features are used, examples include:
-radius (mean of distances from center to points on the perimeter)
-texture (standard deviation of gray-scale values)
-perimeter
-area
-smoothness (local variation in radius lengths)
-compactness (perimeter^2 / area - 1.0)
-concavity (severity of concave portions of the contour)
-concave points (number of concave portions of the contour)
-symmetry
-fractal dimension ("coastline approximation" - 1)
+- radius (mean of distances from center to points on the perimeter)
+- texture (standard deviation of gray-scale values)
+- perimeter
+- area
+- smoothness (local variation in radius lengths)
+- compactness (perimeter^2 / area - 1.0)
+- concavity (severity of concave portions of the contour)
+- concave points (number of concave portions of the contour)
+- symmetry
+- fractal dimension ("coastline approximation" - 1)
 
 Datasets are linearly separable using all 30 input features Number of Instances: 569 Class Distribution: 212 Malignant, 357 Benign Target class:
 Malignant
@@ -111,16 +111,16 @@ We will have access to users' finances and how they handle finances through the 
 We also have demographic info acquired from sign-up process
 Caveat: financial data can be unreliable and delayed, so companies are more likely to use demographic data instead.
 Dataset - Our dataset will include fields such as:
-User ID
-Whether they churned (0 or 1) response variable
-Age
-Housing (na, R = renting, O = owner)
-Credit score
-Deposits = number of deposits
-Withdrawals = number of withdrawals
-Purchases = how many purchases outside of company partner stores
-Purchases_special = number of purchases with company partner stores
-CC_taken = number of credit cards
+- User ID
+- Whether they churned (0 or 1) response variable
+- Age
+- Housing (na, R = renting, O = owner)
+- Credit score
+- Deposits = number of deposits
+- Withdrawals = number of withdrawals
+- Purchases = how many purchases outside of company partner stores
+- Purchases_special = number of purchases with company partner stores
+- CC_taken = number of credit cards
 and more...
 
 Using Logistic Regression, we build a model to predict whether or not a given user has churned (i.e. no longer interested in the company product).
