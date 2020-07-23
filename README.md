@@ -149,7 +149,7 @@ This is appropriate in this business environment because customers and their inf
 
 Using random forest and decision tree classification as well as a dense sequential neural network, we aim to predict whether any given transaction is legitimate or fraudulent.¨
 
-## 6) E-Signing Loans & Financial History
+## 7) E-Signing Loans & Financial History
 
 We work for a fintech company that specializes in loands. It offers low APR loans to applicants based on their financial habits. The company has partnered with a peer-to-peer lending marketplace that provides real time loan applicants.
 
