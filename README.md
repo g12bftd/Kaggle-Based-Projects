@@ -147,4 +147,28 @@ This is appropriate in this business environment because customers and their inf
 - One column denotes how much money the user has spent on our platform in total.
 - The response variate denotes whether the transaction is fraudulent.
 
-Using random forest and decision tree classification as well as a dense sequential neural network, we aim to predict whether any given transaction is legitimate or fraudulent.
+Using random forest and decision tree classification as well as a dense sequential neural network, we aim to predict whether any given transaction is legitimate or fraudulent.¨
+
+## 6) E-Signing Loans & Financial History
+
+We work for a fintech company that specializes in loands. It offers low APR loans to applicants based on their financial habits. The company has partnered with a peer-to-peer lending marketplace that provides real time loan applicants.
+
+We aim to develop a model to predict whether loan applicant will complete the electronic signature phase of the loan application. The company will leverage the model to identify "low quality" applicants and experiment with different onboarding screens.
+
+Our dataset includes features such as:
+- Age
+- Pay schedule (weekly, monthly, bi-weekly, semi-monthly etc.)
+- Home owner (y/n)
+- Has debt
+- Annual income
+- Years of employment
+- Time user has had a personal bank account 
+- Risk score 
+- e-signed (y/n) = our response variable
+
+etc...
+
+
+Our dataset has 908 entries and 21 columns
+
+We use logistic regression, linear SVM, radial SVM and random forest classification to build 4 machine learning models to address the given challenge. Using 10-fold cross validation and grid searching of hyperparameters with respect to the accuracy metric, we identify the best model with the best parameters for this problem.  
