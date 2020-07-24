@@ -1,0 +1,95 @@
+---
+title: "Breast Cancer Classification"
+output: pdf_document
+author: Glenn Bucagu
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "~/Desktop/Projects/6 Practical ML Projects")
+```
+
+
+```{r importing dataset}
+dataset <- read.csv("BreastCancer.csv")
+dataset
+```
+
+```{r visualizing variable relationships}
+# We visualize a few variables to get an idea of what to expect
+
+group <- c(NA, NA)
+group[dataset$target == 1] <- 2
+group[dataset$target == 0] <- 1
+
+pairplot_indices <- c(1, 2, 4, 5)
+
+pairs(x = dataset[, pairplot_indices], col = c("red", "green")[group],
+      pch = c(8, 18)[group], main = "Breast Cancer Dataset Pair Plots")
+
+# install.packages("corrplot")
+library(corrplot)
+corr_mat <- cor(dataset)
+corrplot(corr_mat, method="color", type = "lower", tl.col="black", tl.srt = 45,
+         tl.cex = 0.5)
+
+```
+
+
+```{r splitting the dataset into training and testing set}
+library(caTools)
+split = sample.split(dataset$target, SplitRatio = 0.75)
+training_set = subset(dataset, split == TRUE)
+testing_set = subset(dataset, split == FALSE)
+
+training_set
+testing_set
+
+```
+
+```{r feature scaling}
+training_set[-31] = scale(training_set[-31])
+testing_set[-31] = scale(testing_set[-31])
+
+training_set
+testing_set
+
+```
+
+
+```{r building the SVM models}
+library(e1071)
+svm_linear = svm(formula = target ~.,
+                 data = training_set,
+                 type = 'C-classification',
+                 kernel = 'linear')
+svm_radial = svm(formula = target ~.,
+                 data = training_set,
+                 type = 'C-classification',
+                 kernel = 'radial')
+
+```
+
+
+```{r predicting values from testing set}
+y_pred_linear <- predict(svm_linear, testing_set)
+y_pred_radial <- predict(svm_radial, testing_set)
+
+```
+
+
+```{r confusion_matrices}
+#install.packages("RColorBrewer")
+#install.packages("gplots")
+library(gplots)
+library(RColorBrewer)
+color_palette <- colorRampPalette(c("red", "green"))
+cm_linear <- table(testing_set[, 31], y_pred_linear)
+cm_radial <- table(testing_set[, 31], y_pred_radial)
+
+cm_linear
+cm_radial
+
+```
+
