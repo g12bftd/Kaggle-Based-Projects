@@ -196,3 +196,16 @@ The averages are taken from various sensors located around the plant that record
 More info available at https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant
 
 We aim to use a densely-connected neural network to predict net hourly electrical energy output based on our 4 predictors listed above.
+
+## 9) Combined Cycle Power Plant Project
+
+Given some features regarding a bank note, we want to predict whether the bank note is genuine or a fake.
+
+Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images.
+
+Our variates are:
+variance of Wavelet Transformed image (continuous)
+skewness of Wavelet Transformed image (continuous)
+curtosis of Wavelet Transformed image (continuous)
+entropy of image (continuous)
+class (integer) - 0 for genuine and 1 for fake
