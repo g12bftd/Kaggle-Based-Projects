@@ -1,6 +1,6 @@
 # Real-World Applications of Machine Learning
 A few of the projects I completed on my machine learning journey.
-The datasets used are all publically available on platforms such as Kaggle and Super Data Science.
+The datasets used are all publically available on platforms such as Kaggle, UCI Machine Learning Repository and Super Data Science.
 
 
 ## Breast Cancer Classification (SVC)
