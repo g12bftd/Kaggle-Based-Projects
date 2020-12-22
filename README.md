@@ -3,7 +3,7 @@ A few of the projects I completed on my machine learning journey.
 The datasets used are all publically available on platforms such as Kaggle and Super Data Science.
 
 
-## 1) Breast Cancer Classification (SVC)
+## Breast Cancer Classification (SVC)
 
 Objective: Given features regarding breast tumors, we wish to classify these tumors as either benign or malignant
 
@@ -25,7 +25,7 @@ Benign https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnost
 
 Using Support Vector Classification, we build a model to predict whether a tumor is benign or malignant.
 
-## 2) Customer Subscription Behavior Analysis
+## Customer Subscription Behavior Analysis
 
 We are working for a fintech company that wants to provide customers with a paid mobile app subscription that will allow them to track their finances.
 To attract customers, the company releases a free version of the app.
@@ -47,7 +47,7 @@ Our dataset features:
 
 Using Logistic Regression, we build a model to predict whether a customer has enrolled in the app's paid version.
 
-## 3) Fashion Class Classification
+## Fashion Class Classification
 
 Given a series of images, we want to build a machine learning model that is able to identify the fashion content of each image. Examples of classes include shorts, bags, dresses etc.
 
@@ -81,7 +81,7 @@ Each training and test example is assigned to one of the following labels:
 
 Using a convolutional neural network, we predict which of the 10 items of fashion feature in any given image.
 
-## 4) Logistic Regression - Breast Cancer (UCI ML Repo Dataset)
+## Logistic Regression - Breast Cancer (UCI ML Repo Dataset)
 
 Objective: Given features regarding breast tumors, we wish to classify these tumors as either benign or malignant
 
@@ -103,7 +103,7 @@ Benign https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnost
 
 Using Logistic Regression, we build a model to predict whether a tumor is benign or malignant.
 
-## 5) Minimizing Churn Rate
+## Minimizing Churn Rate
 
 Objective: to predict which users are most likely to churn, thereby allowing the company to re-engage/advertise to these users.
 We're working for a fintech company that has a subscription product that allows a user to manage their finances.
@@ -126,7 +126,7 @@ and more...
 
 Using Logistic Regression, we build a model to predict whether or not a given user has churned (i.e. no longer interested in the company product).
 
-## 6) Project - Sales Analysis
+## Project - Sales Analysis
 
 Given 12 months of sales data, we use the Pandas library to answer the following questions:
 1) What was the best month of sales? How much revenue was made?
@@ -135,7 +135,7 @@ Given 12 months of sales data, we use the Pandas library to answer the following
 4) What products are most often sold together in pairs?
 5) Which product is sold the most?
 
-## 6) Credit Card Fraud Detection
+## Credit Card Fraud Detection
 
 We are working for an e-commerce company and will use past transactional data to detect potential fraud.
 
@@ -149,7 +149,7 @@ This is appropriate in this business environment because customers and their inf
 
 Using random forest and decision tree classification as well as a dense sequential neural network, we aim to predict whether any given transaction is legitimate or fraudulent.¨
 
-## 7) E-Signing Loans & Financial History
+## E-Signing Loans & Financial History
 
 We work for a fintech company that specializes in loands. It offers low APR loans to applicants based on their financial habits. The company has partnered with a peer-to-peer lending marketplace that provides real time loan applicants.
 
@@ -173,7 +173,7 @@ Our dataset has 908 entries and 21 columns
 
 We use logistic regression, linear SVM, radial SVM and random forest classification to build 4 machine learning models to address the given challenge. Using 10-fold cross validation and grid searching of hyperparameters with respect to the accuracy metric, we identify the best model with the best parameters for this problem.  
 
-## 8) Combined Cycle Power Plant Project
+## Combined Cycle Power Plant Project
 
 
 Data Set Information:
@@ -197,7 +197,7 @@ More info available at https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Po
 
 We aim to use a densely-connected neural network to predict net hourly electrical energy output based on our 4 predictors listed above.
 
-## 9) Combined Cycle Power Plant Project
+## Bank Note Authentication
 
 Given some features regarding a bank note, we want to predict whether the bank note is genuine or a fake.
 
