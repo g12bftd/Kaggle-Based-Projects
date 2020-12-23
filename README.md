@@ -213,3 +213,8 @@ Our variates are:
 ## Stock Price Clustering
 
 Given 27 different companies in the SP500, we will extract their stock price data directly from Yahoo Finance. The objective is to use the KMeans algorithm to categorize these companies into 5 clusters, by the magnitude of the changes in opening and closing stock price between Jan 1st 2015 and Jan 1st 2020.
+
+## Stock Price Clustering
+
+A large supermarket chain has collected data regarding its product sales across 10 of its stores.
+Using machine learning regression methods, the objective is to predict the future sales of all products sold by the supermarket.
