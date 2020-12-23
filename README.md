@@ -209,3 +209,7 @@ Our variates are:
 - curtosis of Wavelet Transformed image (continuous)
 - entropy of image (continuous)
 - class (integer) : 0 for genuine and 1 for fake
+
+## Stock Price Clustering
+
+Given 27 different companies in the SP500, we will extract their stock price data directly from Yahoo Finance. The objective is to use the KMeans algorithm to categorize these companies into 5 clusters, by the magnitude of the changes in opening and closing stock price between Jan 1st 2015 and Jan 1st 2020.
