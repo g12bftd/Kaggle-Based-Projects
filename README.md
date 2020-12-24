@@ -218,3 +218,7 @@ Given 27 different companies in the SP500, we will extract their stock price dat
 
 A large supermarket chain has collected data regarding its product sales across 10 of its stores.
 Using machine learning regression methods, the objective is to predict the future sales of all products sold by the supermarket.
+
+## CatBoost: Kaggle Amazon Employee Challenge
+
+Given real life Amazon Employee data from 2010 and 2011 (source: Kaggle), we aim to use a CatBoost Classifier to determine whether an employee should be granted access to resources.
