@@ -227,3 +227,8 @@ Given real life Amazon Employee data from 2010 and 2011 (source: Kaggle), we aim
 
 Given data on employees in a company, we will use machine learning to predict which employees are most likely to leave the company.
 We aim to use logistic regression, random forest classifier, and a deep learning model to predict whether a company will leave the company.
+
+## Marketing: Customer Segmentation
+
+Given data about customers, we aim to use clustering algorithms to segment the customers and classify them appropriately.
+We use PCA and Autoencoders to reduce the data dimensionality
