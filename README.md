@@ -232,3 +232,7 @@ We aim to use logistic regression, random forest classifier, and a deep learning
 
 Given data about customers, we aim to use clustering algorithms to segment the customers and classify them appropriately.
 We use PCA and Autoencoders to reduce the data dimensionality
+
+# Predicting Disease by Analyzing Images
+
+We have a folder containing images of lung CT scans and the corresponding diseases. The objective is to use a deep neural network to classify the disease based on the image of the lung.
