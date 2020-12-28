@@ -236,3 +236,8 @@ We use PCA and Autoencoders to reduce the data dimensionality
 # Predicting Disease by Analyzing Images
 
 We have a folder containing images of lung CT scans and the corresponding diseases. The objective is to use a deep neural network to classify the disease based on the image of the lung.
+
+# Amazon Alexa Sentiment Analysis
+
+This dataset consists of a nearly 3000 Amazon customer reviews (input text), star ratings, date of review, variant and feedback of various amazon Alexa products like Alexa Echo, Echo dots, Alexa Firesticks etc. for learning how to train Machine for sentiment analysis.
+The objective of the project is to introduce NLP methods to clean a tsv file, and use a Naive Bayes classifier to predict whether a given text review is positive or negative.
